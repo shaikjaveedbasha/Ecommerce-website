@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommercewebsite</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+   
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
+  <div class="container-fluid ">
+      <a class="navbar-brand text-success" href="#"><strong>Luxora</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item ">
+          <a class="nav-link active p-2 me-lg-2" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-2 me-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Fashion
+          </a>
+          <ul class="dropdown-menu">
+             <li><a class="dropdown-item" href="shoes.html">Shoes (Sneakers, Heels)</a></li>
+             <li><hr class="dropdown-divider"></li> 
+              <li><a class="dropdown-item" href="perfumes.html">Perfumes</a></li>
+             <li><hr class="dropdown-divider"></li> 
+              <li><a class="dropdown-item" href="sunglasse.html">Sunglasses</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-2 me-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Men’s Wear
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="casual.html">Casual T-Shirts</a></li>
+             <li><hr class="dropdown-divider"></li> 
+            <li><a class="dropdown-item" href="formal.html">Formal Shirts</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="jeans.html">Jeans</a></li>
+             <li><hr class="dropdown-divider"></li> 
+            <li><a class="dropdown-item" href="jackets.html">Jackets</a></li>
+          </ul>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-2 me-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Women’s Wear
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="dresses.html">Dresses</a></li>
+             <li><hr class="dropdown-divider"></li> 
+            <li><a class="dropdown-item" href="heels.html">Heels</a></li>
+             <li><hr class="dropdown-divider"></li> 
+            <li><a class="dropdown-item" href="handbags.html">Handbags</a></li>
+           
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-2 me-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Accessories
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="smartphone.html">Smartphone</a></li>
+             <li><hr class="dropdown-divider"></li> 
+            <li><a class="dropdown-item" href="watchs.html">Smartwatch</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="earbuds.html">Earbuds</a></li>
+          </ul>
+        </li>
+       <li class="nav-item ">
+          <a class="nav-link active p-2 me-lg-2 " aria-current="page" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+         <a href="signin.html"><button class="btn btn-outline-success" type="">SignIn</button></a>
+       <a href="login.html"><button class="btn btn-outline-success" type="">login</button></a>
+      </form> 
+    </div>
+    </div>
+    
+  </div>
+</nav>
+<section class="container-fluid">
+  <div class="row">
+           <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">
+            <div class="carousel-indicators">
+                <button data-bs-target="#mainSlide" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mainSlide" data-bs-slide-to="1"></button>
+                 <button data-bs-target="#mainSlide" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                  <div class="mainbanner">
+                      <div class="carousel-item active" data-bs-interval="2000">
+                          <div class="mobile-banner">
+                               <img src="banners/mobile-banner.jpg" class="w-100"  alt=""> 
+                          </div>
+                      </div>
+                      <div class="carousel-item " data-bs-interval="2000">
+                            <div class="mobile-banner">
+                                <img src="banners/iphone-banner.jpg" class="w-100"  alt=""> 
+                            </div>
+                      </div>
+                       <div class="carousel-item " data-bs-interval="2000">
+                            <div class="mobile-banner">
+                                <img src="banners/iphone-banner-2.jpg" class="w-100"  alt=""> 
+                            </div>
+                      </div>
+                  </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#mainSlide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+                
+            <button class="carousel-control-next" data-bs-target="#mainSlide" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            </div>
+  </div>
+</section>
+
+<section class="container-fluid">
+  <div class="row mt-3">
+            <div class="col-md-6 col-lg-3">
+                <div class="card  shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-1.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-1.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                        </div>
+                             <div class="card-body  p-0 ">
+                                    <h4 class="text-success">Apple iPhone 17 Pro (Cosmic Orange, 256 GB)</h4>
+                                     <P>This item is currently Available</P>
+                                     <p>16.0 cm (6.3 inch) Super Retina XDR Display</p>
+                                     <p>48MP + 48MP + 48MP | 18MP Front Camera</p>
+                                     <p>A19 Chip, 6 Core Processor Processor</p>
+                                      <a href="index.html"><p class="text-center text-danger"><strong class="text-success">₹1,34,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                   
+                </div>
+                 <div class="col-md-6 col-lg-3">
+                <div class="card  shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-2.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-2.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body  p-0 ">
+                                    <h4 class="text-success">Apple iPhone 14 (Starlight, 128 GB)</h4>
+                                     <p>15.49 cm (6.1 inch) Super Retina XDR Display</p>
+                                     <p>12MP + 12MP | 12MP Front Camera</p>
+                                     <p>A15 Bionic Chip, 6 Core Processor Processor</p>
+                                      <a href="index.html"><p class="text-center text-danger"><strong class="text-success">₹54,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-3.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-3.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body p-0 ">
+                                    <h4 class="text-success">Apple iPhone 16 Pro (Desert Titanium, 512 GB)</h4>
+                                     <P>16.0 cm (6.3 inch) Super Retina XDR Display</P>
+                                     <p>48MP + 48MP + 12MP | 12MP Front Camera</p>
+                                     <p>A18 Pro Chip, 6 Core Processor Processor</p>
+                                      <a href="index.html"><p class="text-center text-danger"><strong class="text-success">MRP : ₹1,39,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-4.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-4.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body  p-0 ">
+                                    <h4 class="text-success">Apple iPhone 16 Pro (White Titanium, 1 TB)</h4>
+                                     <P>16.0 cm (6.3 inch) Super Retina XDR Display</P>
+                                     <p>48MP + 48MP + 12MP | 12MP Front Camera</p>
+                                     <p>A18 Pro Chip, 6 Core Processor Processor</p>
+                                      <a href="index.html"><p class="text-center text-danger"><strong class="text-success">₹1,59,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+    </div>
+<!--------------------------------------------second-row------------------------------------------- -->
+ <div class="row mt-3">
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-5.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-5.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body text-center p-0  ">
+                                    <h4 class="text-success">Apple iPhone 16 Pro Max (White Titanium, 512 GB)</h4>
+                                     <P>17.53 cm (6.9 inch) Super Retina XDR Display</P>
+                                     <p>48MP + 48MP + 12MP | 12MP Front Camera</p>
+                                     <p>A18 Pro Chip, 6 Core Processor Processor</p>
+                                    <a href="index.html"><p class="text-center text-danger"><strong class="text-success">₹1,54,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                  </div>
+            </div>
+                 <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-6.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-6.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body text-center p-0  ">
+                                    <h4 class="text-success">Apple iPhone 14 (Starlight, 128 GB)</h4>
+                                     <p>15.49 cm (6.1 inch) Super Retina XDR Display</p>
+                                     <p>12MP + 12MP | 12MP Front Camera</p>
+                                     <p>A15 Bionic Chip, 6 Core Processor Processor</p>
+                                    <a href="index.html"><p class="text-center text-danger"><strong class="text-success">₹54,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-3.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-3.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body text-center p-0  ">
+                                    <h4 class="text-success">Apple iPhone 16 Pro (Desert Titanium, 512 GB)</h4>
+                                     <P>16.0 cm (6.3 inch) Super Retina XDR Display</P>
+                                     <p>48MP + 48MP + 12MP | 12MP Front Camera</p>
+                                     <p>A18 Pro Chip, 6 Core Processor Processor</p>
+                                    <a href="index.html"><p class="text-center text-danger"><strong class="text-success">MRP : ₹1,39,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-4.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-4.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body text-center p-0 ">
+                                    <h4 class="text-success">Apple iPhone 16 Pro (White Titanium, 1 TB)</h4>
+                                     <P>16.0 cm (6.3 inch) Super Retina XDR Display</P>
+                                     <p>48MP + 48MP + 12MP | 12MP Front Camera</p>
+                                     <p>A18 Pro Chip, 6 Core Processor Processor</p>
+                                    <a href="index.html"><p class="text-center text-danger"><strong class="text-success">₹1,59,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+ <div class="row mt-3">
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-5.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-5.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body text-center p-0 ">
+                                    <h4 class="text-success">Apple iPhone 16 Pro Max (White Titanium, 512 GB)</h4>
+                                     <P>17.53 cm (6.9 inch) Super Retina XDR Display</P>
+                                     <p>48MP + 48MP + 12MP | 12MP Front Camera</p>
+                                     <p>A18 Pro Chip, 6 Core Processor Processor</p>
+                                    <a href="index.html"><p class="text-center text-danger"><strong class="text-success">₹1,54,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                  </div>
+            </div>
+                 <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-6.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-6.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body text-center p-0  ">
+                                    <h4 class="text-success">Apple iPhone 14 (Starlight, 128 GB)</h4>
+                                     <p>15.49 cm (6.1 inch) Super Retina XDR Display</p>
+                                     <p>12MP + 12MP | 12MP Front Camera</p>
+                                     <p>A15 Bionic Chip, 6 Core Processor Processor</p>
+                                    <a href="index.html"><p class="text-center text-danger"><strong class="text-success">₹54,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-3.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-3.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body text-center p-0  ">
+                                    <h4 class="text-success">Apple iPhone 16 Pro (Desert Titanium, 512 GB)</h4>
+                                     <P>16.0 cm (6.3 inch) Super Retina XDR Display</P>
+                                     <p>48MP + 48MP + 12MP | 12MP Front Camera</p>
+                                     <p>A18 Pro Chip, 6 Core Processor Processor</p>
+                                    <a href="index.html"><p class="text-center text-danger"><strong class="text-success">MRP : ₹1,39,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-3">
+                <div class="card shadow p-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="mainSlide">   
+                            <div class="carousel-inner">
+                               <div class="carousel-item active"  data-bs-interval="2000">
+                                     <img src="banners/iphone-4.webp" class="w-100" alt="">
+                                </div>
+                                <div class="carousel-item " data-bs-interval="2000">
+                                     <img src="banners/iphone-4.webp" class="w-100"  alt="">
+                                </div>
+                             </div>   
+                              
+                             <div class="card-body text-center p-0  ">
+                                    <h4 class="text-success">Apple iPhone 16 Pro (Desert Titanium, 512 GB)</h4>
+                                     <P>16.0 cm (6.3 inch) Super Retina XDR Display</P>
+                                     <p>48MP + 48MP + 12MP | 12MP Front Camera</p>
+                                     <p>A18 Pro Chip, 6 Core Processor Processor</p>
+                                    <a href="index.html"><p class="text-center text-danger"><strong class="text-success">MRP : ₹1,39,900</strong></a>                                      
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                
+    </div>
+
+
+
+
+</section>
+
+</body>
+</html>

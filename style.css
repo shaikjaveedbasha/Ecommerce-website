@@ -1,0 +1,201 @@
+
+/* 
+ body{
+    background-color: #ffd6a5;
+}  */
+
+
+.carousel-image-1{
+    width: 100%;
+    height: 450px;
+
+}
+
+
+
+.E-img{
+    width:100%;
+    height: 500px;
+    background-image: url("banners/elebanner-1.avif");
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+.img-text{
+    width:500px ;
+    height: 300px;
+    margin-top: 200px ;
+    margin-left: 100px;
+}
+
+.E-img-2{
+    width:100%;
+    height: 500px;
+    background-image: url("banners/elebanner-2.avif");
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    margin-top: 20px;
+}
+.E-img-3{
+    width:100%;
+    height: 500px;
+    background-image: url("banners/elebanner-3.avif");
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.text-2{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding-left: 30px;
+    padding-top: 200px;
+}
+ 
+
+
+.text-3{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding-left: 30px;
+    padding-top: 150px;
+}
+
+
+
+/* <!---------------------------------------shoes-page_________________________> */
+
+/* .shoes-body{
+    background-color:  whitesmoke ;
+} */
+
+
+.shoes-banner{
+    width: 100%;
+    height: 450px;
+    background-image: url("banners/nikebanner-2.jpg");
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+/* <!--------------------------perfumes-page-----------------------> */
+
+
+
+.perfume-hero{
+    width: 100%;
+    height: 450px;
+    background-image: url("banners/perfume2.jpg");
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+/* <--------------------------------casualpage-------------------------------------> */
+
+.t-shirtbanner{
+    width: 100%;
+    height: 450px;
+    background-image: url("banners/t-shirthub-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* <----------------------------formal-shirts----------------------------------> */
+.formal-shirt{
+    width: 100%;
+    height: 450px;
+    background-image: url("banners/Linen-Banner-Desktop.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+/* <--------------------------jacketpage-----------------------> */
+
+
+.jacket-banner{
+    width: 100%;
+    height: 450px;
+    background-image: url("banners/jackets-banner.jpg");
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/* <--------------------------dress-page-------------------------------------> */
+
+.women-banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("banners/women-banner-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ------------------------------------heels-page--------------------------------- */
+
+.heels-banner{
+    width: 100%;
+    height: 600px;
+    background-image: url("banners/heels-baneer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ----------------------------------mobile-banner------------------------------------ */
+
+.mobile-banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("banners/mobile-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* --------------------airbudspage-------------------------------- */
+
+.airbuds-banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("banners/airbuds-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+}
